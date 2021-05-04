@@ -1,0 +1,118 @@
+/* 全局样式 */
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Segoe UI',SegoeUI,'Microsoft YaHei',微软雅黑,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+}
+
+
+
+
+.el-breadcrumb {
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.el-card {
+    /*box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;*/
+    box-sizing: border-box!important;
+}
+
+.el-card__body{
+    padding: 0!important;
+}
+
+.el-table {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.el-pagination {
+    margin-top: 15px;
+}
+
+/* 解决级联选择框的问题 */
+/*div .el-scrollbar__wrap {*/
+/*    height: 300px !important*/
+/*}*/
+
+/* 步骤条 */
+.el-steps {
+    margin: 15px 0;
+}
+
+.el-step__title {
+    font-size: 13px;
+}
+.ql-editor{
+    min-height: 300px;
+}
+
+/*.content-box {*/
+/*    position: absolute;*/
+/*    left: 249px;*/
+/*    right: 0;*/
+/*    top: 60px;*/
+/*    bottom: 0;*/
+/*    padding-bottom: 30px;*/
+/*    -webkit-transition: left .3s ease-in-out;*/
+/*    transition: left .3s ease-in-out;*/
+/*    background: #f0f0f0;*/
+/*}*/
+
+.content {
+    width: auto;
+    height: 100%;
+    padding: 10px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+.content-collapse {
+    left: 63px;
+}
+
+.sidebar-el-menu .el-submenu__title:hover {
+    outline: none;
+    color: #fff;
+    background-color: rgba(0,161,214,0.1) !important;
+}
+
+.el-submenu__title:hover .title-font{
+    outline: none;
+    color: rgba(0,161,214,1) !important;
+}
+
+
+.el-menu-user .el-submenu__title:hover {
+    outline: none;
+    color: #fb7299;
+    background-color: rgba(251,114,153,0.1) !important;
+}
+
+
+
+.carousel-img:focus{
+    outline: none!important;
+}
+
+.el-carousel__item:nth-child(2n) {
+    background-color: transparent;
+}
+
+.el-carousel__item:nth-child(2n+1) {
+    background-color: transparent;
+}
+/*.el-radio-button__orig-radio:checked,.is-active .el-radio-button__inner{*/
+/*    background-color: #9b82e0!important;*/
+/*    border: #9b82e0!important;*/
+/*}*/
+
+.el-input__inner:focus {
+    border-color:  rgba(251, 114, 153, 0.5) !important;
+}
